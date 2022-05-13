@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+   padding: 0;
+   margin: 0; 
+}
+
+/* selector (puede ser una etiqueta/una clase/ un id) - propiedad - valor*/
+
+body{
+    background-color: rgb(245, 215, 215);
+}
+/* header */
+
+ header{
+    background-color: rgb(225, 192, 255) ;
+    position:fixed;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    
+   
+ }
+
+ .logotipo {
+    position: absolute;
+    height: 80%;
+    width: auto;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    
+ }
+ 
+ .navbar {
+    display: flex;
+    justify-content:flex-end;
+    
+
+ }
+ .navbar li {
+    margin-top: 85px;
+    margin-right: 5px;
+    margin-left: 5px;
+        
+        
+ }
+
+ nav ul li a { 
+    text-decoration: none;
+    color: rgb(105, 26, 151);
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+ }
+ ul li{
+    list-style-type: none;
+
+ }
+
+
+
+
+ /* main del index */
+ 
+ .principal{
+    top: 300px;
+    margin-top: 100px;
+    text-align: center;
+    color: blue
+    
+    
+ }
+ .galeria{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+    margin-left: 70px;
+    text-align: center;
+    
+ }
+ .galeria img{
+    
+    border: 1px solid black;
+ }
+
+
+
+
+ .video iframe{
+    width: 500px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 400px;
+ }
+ 
+
+
+ #subtitulo{
+    color: red;
+    margin-top: 50px;
+    margin-left: 660px;
+    font-family: 'Quicksand', sans-serif;
+    
+ }
+
+ p{
+    color: rgb(105, 26, 151);
+    font-family: 'Quicksand', sans-serif;
+    text-align: flex;
+ }
+
+
+
+  
+ /* footer */
+ 
+ footer{
+    display:flex;
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: rgb(105, 26, 151);
+    margin-bottom: 0px;
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ footer .horariosemana{
+    align-items: left;
+ }
+
+ footer .horariosabado{
+    align-items: left;
+    margin-left: 160px;
+ } 
+ 
+ /* títulos de secciones */
+  
+ h1{
+    color: rgb(105, 26, 151);
+    padding: 20px;
+    margin-top: 170px;
+    margin-bottom: auto;
+    position:static;
+    text-align: center;    
+    font-family: 'Quicksand', sans-serif;
+ }
+
+
+
+
+
+ /* Grid productos */
+ 
+ .grid-productos{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(245, 215, 215);
+    padding: 100% px;
+    margin-top: 10px;
+    text-align: center;
+ }
+ .grid-productos img{
+    border: 1px solid black;
+    margin-top: 2cm;
+    
+}
+
+
+
+/* primero transformo el elemento y luego le aplico la transición */
+
+
+/*  
+
+.grid-productos img{
+    margin: 20px, auto;
+}
+.grid-productos img:hover{
+    animation:  miel 5s;
+
+}
+@keyframes miel{
+     
+    25%{
+        transform: scale(1.5);
+    }
+    
+}
+*/
+
+
+/* sección nosotras */
+
+
+.nosotras-contenido{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center
+    
+}
+
+.nosotras-contenido img {
+    
+    position: static;
+    border: 5px solid rgb(0, 0, 0) ;
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.nosotras-contenido p{
+    
+    margin-top: 50px;
+    position: static;
+    line-height: 1cm;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+
+
+
+@media (min-width: 390px) {
+
+
+    header{
+        background-color: rgb(225, 192, 255) ;
+        position:fixed;
+        top: 0;
+        right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 100px;
+        padding: 20px;
+    }
+    
+    .logotipo {
+        position: absolute;
+        height: 75%;
+        width: auto;
+        margin-left: 140px;
+        top: 0;
+        
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 40px;
+    }
+    .navbar li {
+        margin-top: 90px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+        
+    }
+
+    nav ul li a { 
+        text-decoration: none;
+        color: rgb(105, 26, 151);
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    ul li{
+        list-style-type: none;
+    
+    }
+   
+    h1{
+       
+        padding: 15px;
+        margin-top: 180px;
+        margin-bottom: auto;
+        margin-left: 10px;
+        position:static;
+        text-align: center;    
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+
+    /* main del index */
+    .principal{
+        top: 300px;
+        margin-top: 150px;
+        text-align: center;
+        color: blue
+    
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin-left: 10px;
+
+      
+    }
+
+  
+    .galeria img{
+        width: 50%;
+        height: auto;
+        border: 1px solid black;
+    }
+   
+    .galeria a{
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+
+    #subtitulo{
+        color: red;
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+    }
+    .video iframe{
+        width: 300px;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .grid-productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        background-color: rgb(245, 215, 215);
+        text-align: center;
+        
+        
+    }
+    
+    .grid-productos img{
+        border: 1px solid black;
+        height: 65%;
+        width: auto;
+        
+        
+    }
+    
+
+    footer{
+        
+        
+        left: 0;
+        
+        width: 100%;
+        background-color: pink;
+        color: rgb(105, 26, 151);
+        margin-bottom: 0px;
+        margin-top: 100px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    footer .horariosemana{
+        align-items: left;
+        
+    }
+    
+    footer .horariosabado{
+        align-items: left;
+        margin-left: 160px;
+    }
+
+
+.mapa{
+    display: flex;
+    height: 80%;
+    width: auto;
+    margin-top: 38px;
+}
+   
+article{
+    margin-top: 80px;
+    
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+    header{
+        background-color: rgb(225, 192, 255) ;
+        height: 100px;
+        padding: 15px;
+        
+       
+    }
+    
+    .logotipo {
+        position: absolute;
+        height: 80%;
+        width: auto;
+        margin-left: 80px;
+        top: 15px;
+        
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 320px;
+    }
+    .navbar li {
+        margin-top: 60px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+        
+    }
+
+    nav ul li a { 
+         font-size: 20px;
+              
+        
+    }
+   
+   
+    h1{
+       
+        padding: 15px;
+        margin-top: 150px;
+        
+        position:static;
+        text-align: center;    
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+
+
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-top: 70px;
+        margin-left: 10px;
+        
+        
+    }
+
+  
+    .galeria img{
+        width: 70%;
+        height: auto;
+        border: 1px solid black;
+    }
+    
+    .galeria a{
+        margin-top: 120px;
+        margin-left: 5px;
+    }
+    
+
+    .video iframe{
+        width: 500px;
+        height: 500px;
+    }
+    .grid-productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: rgb(245, 215, 215);
+        text-align: center;
+        
+        
+    }
+    .grid-productos img{
+        border: 1px solid black;
+        height: 75%;
+        width: auto;
+        
+        
+    }
+    
+    .nosotras-contenido img {
+    
+        position: static;
+        border: 5px solid rgb(0, 0, 0) ;
+        width: 40%;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 230px;
+    }
+    
+    .nosotras-contenido p{
+        
+        margin-top: 50px;
+        position: static;
+        line-height: 1cm;
+        justify-content: center;
+        margin: 50px;
+        
+    }
+    .mapa{
+        margin-top: 38px;
+        margin-left: 80px;
+        
+    }
+       
+    article{
+        margin-top: 80px;
+        
+    }
+   
+}
+
+@media (min-width: 1024px) {
+
+
+    header{
+        background-color: rgb(225, 192, 255) ;
+        height: 100px;
+        padding: 15px;
+        
+       
+    }
+    
+    .logotipo {
+        position: absolute;
+        height: 80%;
+        width: auto;
+        top: 20px;
+        margin-left: 70px;
+        
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 470px;
+    }
+    .navbar li {
+        margin-top: 60px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+        
+    }
+
+    nav ul li a { 
+         font-size: 25px;
+              
+        
+    }
+
+
+    .galeria a{
+        margin-top: 200px;
+        margin-left: 5px;
+    }
+
+    .video iframe{
+        width: 700px;
+        height: 700px;
+    }
+    
+   
+   
+
+    .nosotras-contenido{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+    .nosotras-contenido img {
+    
+        position: static;
+        border: 5px solid rgb(0, 0, 0) ;
+        width: 70%;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 130px;
+    }
+    
+   
+    .nosotras-contenido p{
+        
+        
+        position: static;
+        line-height: 1cm;
+        justify-content: center;
+        margin: 70px;
+        
+    }
+    .mapa{
+        margin-top: 38px;
+        margin-left: 210px;
+        
+    }
+
+}
+
+
+@media (min-width: 1366px) {
+
+
+    .navbar {
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 700px;
+    }
+
+
+    .mapa{
+        margin-top: 38px;
+        margin-left: 380px;
+        
+    }
+
+
+
+}
