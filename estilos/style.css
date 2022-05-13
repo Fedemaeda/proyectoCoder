@@ -190,7 +190,7 @@ body{
 @keyframes miel{
      
     25%{
-        transform: scale(1.5);
+        transform: scale(2);
     }
     
 }
