@@ -22,7 +22,7 @@ a:hover {
  }
 
 .carousel-inner{
-    background-color: grey;
+    background-color: rgb(245, 215, 215);
 }
 
 
@@ -98,13 +98,13 @@ a:hover {
 
 
 
+/*  */
 
-
-.container{
+.productos .container{
     display: grid;
-    justify-items: center;
     row-gap: 20px;
     column-gap: 20px;
+    justify-content: center;
 }
  .card p{
     text-align: center;
