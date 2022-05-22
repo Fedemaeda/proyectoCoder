@@ -10,8 +10,12 @@
 body{
     background-color: rgb(245, 215, 215);
 }
-
-
+a:hover {
+    background-color:  rgb(245, 215, 215);
+}   
+.navbar-nav{
+    align-items: flex-end;
+}
 
  .container-fluid img{
      max-height: 100px;
@@ -68,7 +72,9 @@ body{
  /* footer */
  .site-footer {
     height: 150px;
+    
     margin-top: 50px;
+
 }
 
 .redes a i {
@@ -92,23 +98,34 @@ body{
 
 
 
-
-
- /* Grid productos */
+ /* Grid productos  
  
- .grid-productos{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    width: 100%;
-    margin: 0 auto;
-    background-color: rgb(245, 215, 215);
-    padding: 100% px;
-    margin-top: 10px;
-    text-align: center;
+  .grid-productos{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+    
+
  }
- .grid-productos img{
+ 
+ */
+
+
+.container{
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+ .card p{
+    text-align: center;
+}
+
+ 
+ .card{
+    display: grid;
+    justify-content: center;
+    
     border: 1px solid black;
-    margin-top: 2cm;
     
 }
 
@@ -117,19 +134,17 @@ body{
 /* primero transformo el elemento y luego le aplico la transición */
 
 
- 
-
-.grid-productos img{
-    margin: 20px, auto;
-}
-.grid-productos img:hover{
-    animation:  miel 5s;
+.card:hover{
+    animation:  miel 3s;
+    
+    
 
 }
 @keyframes miel{
      
     25%{
-        transform: scale(2);
+        transform: scale(1.5);
+        
     }
     
 }
