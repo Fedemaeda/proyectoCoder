@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "./imports/header";
+@import "./imports/productos";
+@import "./imports/footer";
+
+*{
+   padding: 0;
+   margin: 0; 
+}
+
+/* selector (puede ser una etiqueta/una clase/ un id) - propiedad - valor*/
+
+body{
+    background-color: rgb(245, 215, 215);
+}
+
+
+ .container-fluid img{
+     max-height: 100px;
+ }
+
+.carousel-inner{
+    background-color: rgb(245, 215, 215);
+  
+}
+
+
+
+
+
+ /* main del index */
+ 
+ .principal{
+    top: 300px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(105, 26, 151);
+    
+    
+ }
+
+
+
+/* frame de video index */
+
+ .video iframe{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    align-content: center;
+ }
+ 
+
+
+ #subtitulo{
+    color: red;
+    margin-top: 50px;
+    align-content: center;
+    font-family: 'Quicksand', sans-serif;
+    
+ }
+
+ p{
+    color: rgb(105, 26, 151);
+    font-family: 'Quicksand', sans-serif;
+    text-align: flex;
+ }
+
+
+
+ 
+
+ 
+ /* títulos de secciones */
+  
+ h1{
+    color: rgb(105, 26, 151);
+    margin-bottom: 50px;
+   
+ }
+
+
+
+/* sección nosotras */
+
+
+.nosotras-contenido img {
+    
+   
+    width: 70%;
+    height: auto;
+    
+}
+
+/* ubicación */
+
+.mapa{
+    align-content: center;
+    margin-top: 50px;
+}

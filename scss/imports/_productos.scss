@@ -1,0 +1,33 @@
+.productos .container{
+    display: grid;
+    row-gap: 50px;
+
+}
+
+
+ .card{
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    &:hover{
+        animation:  miel 3s;     
+      
+    }
+  } 
+ 
+
+
+
+/* primero transformo el elemento y luego le aplico la transición */   
+
+
+@keyframes miel{
+     
+    25%{
+        transform: scale(1.5);
+        
+    }
+    
+}
+

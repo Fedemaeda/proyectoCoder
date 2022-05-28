@@ -1,0 +1,16 @@
+.site-footer {
+    height: 150px;
+    
+    margin-top: 50px;
+
+}
+
+.redes a i {
+    color: violet;
+    font-size: 40px;
+     &:hover {
+        animation:  miel 1s;     
+        
+     }
+}
+
