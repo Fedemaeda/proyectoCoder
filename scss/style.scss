@@ -1,3 +1,6 @@
+$color2: #fe5864;
+$color1: rgb(40, 182, 40);
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "./imports/header";
 @import "./imports/productos";
@@ -12,6 +15,12 @@
 
 body{
     background-color: rgb(245, 215, 215);
+}
+
+
+
+nav{
+   background-color: $color1;
 }
 
 
@@ -34,7 +43,7 @@ body{
     top: 300px;
     margin-top: 50px;
     text-align: center;
-    color: rgb(105, 26, 151);
+    color: $color1;
     
     
  }
@@ -53,7 +62,7 @@ body{
 
 
  #subtitulo{
-    color: red;
+    color:$color1;
     margin-top: 50px;
     align-content: center;
     font-family: 'Quicksand', sans-serif;
@@ -61,7 +70,7 @@ body{
  }
 
  p{
-    color: rgb(105, 26, 151);
+    color: $color1;
     font-family: 'Quicksand', sans-serif;
     text-align: flex;
  }
@@ -74,8 +83,9 @@ body{
  /* títulos de secciones */
   
  h1{
-    color: rgb(105, 26, 151);
-    margin-bottom: 50px;
+    color: $color1;
+    font-weight: bolder;
+    margin-bottom: 10px;
    
  }
 
@@ -84,12 +94,14 @@ body{
 /* sección nosotras */
 
 
-.nosotras-contenido img {
+.nosotras-contenido{
+
+   margin-top: 50px;
     
-   
+   img {
     width: 70%;
     height: auto;
-    
+   } 
 }
 
 /* ubicación */

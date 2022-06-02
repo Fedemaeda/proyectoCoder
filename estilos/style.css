@@ -14,6 +14,7 @@ a:hover {
   display: -ms-grid;
   display: grid;
   row-gap: 50px;
+  margin-top: 50px;
 }
 
 .card {
@@ -58,7 +59,6 @@ a:hover {
 .redes a i:hover {
   -webkit-animation: miel 1s;
           animation: miel 1s;
-  color: violet;
 }
 
 * {
@@ -69,6 +69,10 @@ a:hover {
 /* selector (puede ser una etiqueta/una clase/ un id) - propiedad - valor*/
 body {
   background-color: #f5d7d7;
+}
+
+nav {
+  background-color: #28b628;
 }
 
 .container-fluid img {
@@ -84,7 +88,7 @@ body {
   top: 300px;
   margin-top: 50px;
   text-align: center;
-  color: #691a97;
+  color: #28b628;
 }
 
 /* frame de video index */
@@ -97,7 +101,7 @@ body {
 }
 
 #subtitulo {
-  color: red;
+  color: #28b628;
   margin-top: 50px;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -105,19 +109,23 @@ body {
 }
 
 p {
-  color: #691a97;
+  color: #28b628;
   font-family: 'Quicksand', sans-serif;
   text-align: flex;
 }
 
 /* títulos de secciones */
 h1 {
-  color: #691a97;
-  margin-bottom: 50px;
+  color: #28b628;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }
 
-/*  */
 /* sección nosotras */
+.nosotras-contenido {
+  margin-top: 50px;
+}
+
 .nosotras-contenido img {
   width: 70%;
   height: auto;
