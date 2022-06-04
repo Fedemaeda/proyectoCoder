@@ -1,5 +1,6 @@
 $color2: #fe5864;
 $color1: rgb(40, 182, 40);
+$color3: black;
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "./imports/header";
@@ -11,10 +12,15 @@ $color1: rgb(40, 182, 40);
    margin: 0; 
 }
 
+
 /* selector (puede ser una etiqueta/una clase/ un id) - propiedad - valor*/
 
 body{
     background-color: rgb(245, 215, 215);
+    font-family: sans-serif;
+   
+    
+      
 }
 
 

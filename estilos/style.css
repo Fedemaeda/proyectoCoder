@@ -47,8 +47,9 @@ a:hover {
 }
 
 .site-footer {
+  margin-top: 150px;
   height: 150px;
-  margin-top: 50px;
+  overflow: hidden;
 }
 
 .redes a i {
@@ -69,6 +70,7 @@ a:hover {
 /* selector (puede ser una etiqueta/una clase/ un id) - propiedad - valor*/
 body {
   background-color: #f5d7d7;
+  font-family: sans-serif;
 }
 
 nav {
