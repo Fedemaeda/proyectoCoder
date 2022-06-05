@@ -49,7 +49,6 @@ a:hover {
 .site-footer {
   margin-top: 150px;
   height: 150px;
-  overflow: hidden;
 }
 
 .redes a i {
@@ -126,11 +125,17 @@ h1 {
 /* sección nosotras */
 .nosotras-contenido {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .nosotras-contenido img {
   width: 70%;
   height: auto;
+}
+
+/* Contacto mapas*/
+.btn-primary {
+  background-color: blue;
 }
 
 /* ubicación */
@@ -139,4 +144,6 @@ h1 {
       align-content: center;
   margin-top: 50px;
 }
+
+/* Extend */
 /*# sourceMappingURL=style.css.map */

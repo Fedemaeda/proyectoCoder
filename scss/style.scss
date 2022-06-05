@@ -103,6 +103,7 @@ nav{
 .nosotras-contenido{
 
    margin-top: 50px;
+   margin-bottom: 50px;
     
    img {
     width: 70%;
@@ -110,9 +111,38 @@ nav{
    } 
 }
 
+/* Contacto mapas*/
+
+$formulario:(
+   primary: blue,
+
+
+);
+
+@each $boton, $color in $formulario {
+   .btn-#{$boton}{
+      background-color: $color;
+   }
+   
+};
+
+
+
+
+
+
+
+
+
 /* ubicación */
 
 .mapa{
     align-content: center;
     margin-top: 50px;
 }
+
+
+/* Extend */
+
+
+
