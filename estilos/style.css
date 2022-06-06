@@ -20,10 +20,11 @@ a:hover {
 .card {
   display: -ms-grid;
   display: grid;
+  color: violet;
+  style: italic;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -49,11 +50,6 @@ a:hover {
 .site-footer {
   margin-top: 150px;
   height: 150px;
-}
-
-.redes a i {
-  color: violet;
-  font-size: 40px;
 }
 
 .redes a i:hover {
@@ -101,18 +97,9 @@ nav {
       align-content: center;
 }
 
-#subtitulo {
+/* Extend */
+.parrafo, .col-6 p {
   color: #28b628;
-  margin-top: 50px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  font-family: 'Quicksand', sans-serif;
-}
-
-p {
-  color: #28b628;
-  font-family: 'Quicksand', sans-serif;
-  text-align: flex;
 }
 
 /* títulos de secciones */
@@ -144,6 +131,4 @@ h1 {
       align-content: center;
   margin-top: 50px;
 }
-
-/* Extend */
 /*# sourceMappingURL=style.css.map */

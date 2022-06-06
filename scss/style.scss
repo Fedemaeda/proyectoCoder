@@ -67,19 +67,26 @@ nav{
  
 
 
- #subtitulo{
-    color:$color1;
-    margin-top: 50px;
-    align-content: center;
-    font-family: 'Quicksand', sans-serif;
-    
- }
 
- p{
-    color: $color1;
-    font-family: 'Quicksand', sans-serif;
-    text-align: flex;
- }
+    
+ 
+
+
+/* Extend */
+
+.parrafo{
+   
+   color: $color1;
+   
+    
+}
+
+
+.col-6 p{
+    @extend.parrafo;
+   
+     
+}
 
 
 
@@ -140,9 +147,5 @@ $formulario:(
     align-content: center;
     margin-top: 50px;
 }
-
-
-/* Extend */
-
 
 
