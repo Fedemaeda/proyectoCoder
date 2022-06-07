@@ -59,8 +59,7 @@ nav{
 /* frame de video index */
 
  .video iframe{
-    width: auto;
-    height: auto;
+    
     margin-top: 20px;
     align-content: center;
  }
@@ -82,7 +81,7 @@ nav{
 }
 
 
-.col-6 p{
+.col-6 h4{
     @extend.parrafo;
    
      
@@ -108,16 +107,19 @@ nav{
 
 
 .nosotras-contenido{
-
+   padding: 50px; 
    margin-top: 50px;
    margin-bottom: 50px;
-    
+   background-color: white;
+   .col-6{
+      margin: auto;
+   }
    img {
     width: 70%;
     height: auto;
    } 
+  
 }
-
 /* Contacto mapas*/
 
 $formulario:(
@@ -148,4 +150,30 @@ $formulario:(
     margin-top: 50px;
 }
 
+.carousel{
+   width: 50%;
+   margin: auto;
+}
 
+.carousel-inner {
+   background-color: grey;
+   
+   width: 100%;
+   align-content: center;
+   .carousel-item{
+      img{
+      width: 25%;
+      height: 25%;
+   }
+}
+}
+
+@media screen and (max-width: 769px) {
+   
+   .video iframe{
+    width: auto;
+    height: auto;
+   }
+
+
+}
