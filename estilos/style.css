@@ -158,14 +158,24 @@ h1 {
     width: auto;
     height: auto;
   }
-  .nosotras-contenido img {
-    width: 100%;
+  .nosotras-contenido {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .nosotras-contenido .row {
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+  }
+  .nosotras-contenido img {
+    width: 100%;
+  }
+  .nosotras-contenido .col-6 {
+    justify-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

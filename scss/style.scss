@@ -178,18 +178,20 @@ $formulario:(
 
    
    .nosotras-contenido{
-      
-      img{
-         width: 100%;
-      }
-      
+      padding: 0px; 
+      margin-top: 10px;
+      margin-bottom: 10px;
       .row{
          display: grid;
+         grid-template-columns: 1fr;
          grid-template-rows: 1fr 1fr;
-          
+      } 
+      img{
+         width: 100%;
+
+      }  
+      .col-6{
+         justify-items: center;
       }
-   
-
-
-}
+   }
 }
