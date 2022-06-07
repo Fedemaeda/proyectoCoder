@@ -10,6 +10,10 @@ a:hover {
           align-items: flex-end;
 }
 
+.navbar-toggler {
+  background-color: pink;
+}
+
 .productos .container {
   display: -ms-grid;
   display: grid;
@@ -50,6 +54,11 @@ a:hover {
 .site-footer {
   margin-top: 150px;
   height: 150px;
+}
+
+.redes a i {
+  color: #fe5864;
+  font-size: 40px;
 }
 
 .redes a i:hover {
@@ -131,11 +140,22 @@ h1 {
 
 /* ubicación */
 .mapa {
-  -ms-flex-line-pack: center;
-      align-content: center;
   margin-top: 50px;
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
 }
 
+.mapa iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*index*/
 .carousel {
   width: 50%;
   margin: auto;

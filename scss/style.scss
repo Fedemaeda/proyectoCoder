@@ -1,7 +1,7 @@
 $color2: #fe5864;
 $color1: rgb(40, 182, 40);
 $color3: black;
-
+$color4:pink;
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "./imports/header";
 @import "./imports/productos";
@@ -67,10 +67,6 @@ nav{
 
 
 
-    
- 
-
-
 /* Extend */
 
 .parrafo{
@@ -87,9 +83,6 @@ nav{
      
 }
 
-
-
- 
 
  
  /* títulos de secciones */
@@ -138,17 +131,36 @@ $formulario:(
 
 
 
-
-
-
-
-
 /* ubicación */
 
 .mapa{
-    align-content: center;
-    margin-top: 50px;
+   margin-top: 50px;
+   overflow:hidden;
+
+   padding-bottom:50%;
+
+   position:relative;
+
+   height:0;
+
 }
+
+.mapa iframe{
+
+   left:0;
+
+   top:0;
+
+   height:100%;
+
+   width:100%;
+
+   position:absolute;
+
+}
+
+
+/*index*/
 
 .carousel{
    width: 50%;
@@ -196,4 +208,9 @@ $formulario:(
          
       }
    }
+
+   
+
+
+
 }
