@@ -178,7 +178,7 @@ $formulario:(
 
    
    .nosotras-contenido{
-      padding: 0px; 
+      padding: 20px; 
       margin-top: 10px;
       margin-bottom: 10px;
       .row{
@@ -188,10 +188,12 @@ $formulario:(
       } 
       img{
          width: 100%;
+         position:static;
 
       }  
       .col-6{
          justify-items: center;
+         
       }
    }
 }
