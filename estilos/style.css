@@ -4,31 +4,14 @@ a:hover {
   background-color: #f5d7d7;
 }
 
+.navbar-nav {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .navbar-toggler {
-  background-color: pink;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space space-between;
-      -ms-flex-pack: space space-between;
-          justify-content: space space-between;
-}
-
-.navbar-brand {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  background-color: #f5d7d7;
 }
 
 .productos .container {
@@ -135,6 +118,13 @@ h1 {
 
 /* sección nosotras */
 .nosotras-contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -196,24 +186,31 @@ h1 {
     height: auto;
   }
   .nosotras-contenido {
-    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: white;
   }
-  .nosotras-contenido .row {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+  .nosotras-contenido .col-6 {
+    margin: 10px;
   }
   .nosotras-contenido img {
     width: 100%;
-    position: static;
-  }
-  .nosotras-contenido .col-6 {
-    justify-items: center;
+    height: auto;
+    margin-bottom: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */

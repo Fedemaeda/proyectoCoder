@@ -2,6 +2,8 @@ $color2: #fe5864;
 $color1: rgb(40, 182, 40);
 $color3: black;
 $color4:pink;
+$color5:rgb(245, 215, 215);
+$font-family: sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "./imports/header";
 @import "./imports/productos";
@@ -100,6 +102,8 @@ nav{
 
 
 .nosotras-contenido{
+   display: flex;
+   flex-direction: row;
    padding: 50px; 
    margin-top: 50px;
    margin-bottom: 50px;
@@ -189,28 +193,27 @@ $formulario:(
 
 
    
+   
+   
    .nosotras-contenido{
-      padding: 20px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px; 
       margin-top: 10px;
       margin-bottom: 10px;
-      .row{
-         display: grid;
-         grid-template-columns: 1fr;
-         grid-template-rows: 1fr 1fr;
-      } 
-      img{
-         width: 100%;
-         position:static;
-
-      }  
+      background-color: white;
       .col-6{
-         justify-items: center;
-         
+         margin: 10px;
       }
+      img {
+       width: 100%;
+       height: auto;
+       margin-bottom: 50px;
+      } 
+     
    }
-
-   
-
 
 
 }

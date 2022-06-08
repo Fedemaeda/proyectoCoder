@@ -1,20 +1,11 @@
 a:hover {
     background-color:  rgb(245, 215, 215);
 }   
+.navbar-nav{
+    align-items: flex-end;
+}
 
 .navbar-toggler {
-    background-color:$color4;
+    background-color:$color5;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space space-between;
-
-}
-
-.navbar-brand{
-        display: flex;
-    flex-direction: row;
-   
-}
