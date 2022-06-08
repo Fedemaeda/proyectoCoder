@@ -176,10 +176,14 @@ $formulario:(
    
    width: 100%;
    align-content: center;
+   h4{ 
+      color: $color5;
+   }
    .carousel-item{
       img{
-      width: 25%;
-      height: 25%;
+      width: 45%;
+      height: 35%;
+      
    }
 }
 }

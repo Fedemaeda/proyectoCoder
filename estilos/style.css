@@ -5,6 +5,16 @@ a:hover {
 }
 
 .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -175,9 +185,13 @@ h1 {
       align-content: center;
 }
 
+.carousel-inner h4 {
+  color: #f5d7d7;
+}
+
 .carousel-inner .carousel-item img {
-  width: 25%;
-  height: 25%;
+  width: 45%;
+  height: 35%;
 }
 
 @media screen and (max-width: 769px) {
