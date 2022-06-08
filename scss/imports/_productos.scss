@@ -6,14 +6,17 @@
 
 
 .productos .container{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     row-gap: 50px;
+    column-gap: 50px;
     margin-top: 50px;
 }
 
 
  .card{
     display: grid;
+    height: 25rem;
     @include productostext (violet,italic);
     justify-content: center;
     text-align: center;
