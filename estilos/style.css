@@ -348,14 +348,11 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 5px;
-    margin-top: 10px;
+    padding: 15px;
+    margin-top: 1px;
     margin-bottom: 10px;
     font-size: xx-small;
     background-color: #e5e9f2;
-  }
-  .nosotras-contenido .col-6 {
-    margin: 5px;
   }
   .nosotras-contenido .col-6 h4 {
     font-size: 15px;
@@ -367,8 +364,7 @@ h1 {
     margin-bottom: 50px;
   }
   .footer-about .footer-logo img {
-    width: 50%;
-    margin-left: 120px;
+    width: 30%;
   }
   .banner h5 {
     font-size: small;
