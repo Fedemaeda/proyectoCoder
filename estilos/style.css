@@ -15,9 +15,6 @@
       -ms-flex-align: end;
           align-items: flex-end;
   font-weight: bold;
-}
-
-.nav-link a {
   font-size: large;
 }
 
@@ -330,8 +327,8 @@ h1 {
 }
 
 @media screen and (max-width: 769px) {
-  .nav-link a {
-    font-size: small;
+  .navbar-nav {
+    font-size: x-small;
   }
   .video iframe {
     width: auto;
@@ -361,7 +358,7 @@ h1 {
     margin: 5px;
   }
   .nosotras-contenido .col-6 h4 {
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
   }
   .nosotras-contenido img {
@@ -374,7 +371,7 @@ h1 {
     margin-left: 120px;
   }
   .banner h5 {
-    size: 10px;
+    font-size: small;
   }
 }
 /*# sourceMappingURL=style.css.map */

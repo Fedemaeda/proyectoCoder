@@ -211,12 +211,10 @@ $formulario:(
 @media screen and (max-width: 769px) {
  
     
-  .nav-link{
-      a{
+   .navbar-nav{
       
-      font-size: small;
-  }
-  }
+      font-size: x-small;
+  }  
 
    .video iframe{
     width: auto; 
@@ -241,7 +239,7 @@ $formulario:(
       .col-6{
          margin: 5px;
          h4{
-            font-size: 15px;
+            font-size: 10px;
             text-align: center;
          }
       }
@@ -262,7 +260,7 @@ $formulario:(
 
    .banner{ 
       h5{
-   size: 10px;
+   font-size:small;
       
    }
 }
