@@ -348,9 +348,9 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 15px;
-    margin-top: 1px;
-    margin-bottom: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-size: xx-small;
     background-color: #e5e9f2;
   }
@@ -361,7 +361,7 @@ h1 {
   .nosotras-contenido img {
     width: 100%;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .footer-about .footer-logo img {
     width: 30%;
