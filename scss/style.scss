@@ -209,7 +209,15 @@ $formulario:(
 }
 
 @media screen and (max-width: 769px) {
+ 
    
+   .nav-link{
+      a{
+      
+      font-size:medium;
+  }
+
+
    .video iframe{
     width: auto;
     height: auto;
