@@ -1,14 +1,21 @@
-a:hover {
-    background-color:  rgb(245, 215, 215);
-}   
+
+
 .navbar-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    font-weight: bold;
+    
+}  
+.nav-link{
+    a{
+    
+    font-size: x-large;
+}
 }
 
 .navbar-toggler {
-    background-color:$color5;
+    background-color:$color4;
 }
 

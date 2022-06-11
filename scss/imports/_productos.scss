@@ -4,7 +4,6 @@
 }
 
 
-
 .productos .container{
     display: flex;
     flex-wrap: wrap;
@@ -13,20 +12,28 @@
     margin-top: 50px;
 }
 
-
  .card{
     display: grid;
     height: 25rem;
-    @include productostext (violet,italic);
+    border-radius: 10px;
+    background-color: $color6; 
+    border: 2px solid #8888;
+    
+    p{
+    @include productostext (black,italic);
     justify-content: center;
     text-align: center;
+    }
     &:hover{
-        animation:  miel 3s;     
+        animation: miel 3s;
+        transform: scale(1.06);     
       
     }
   } 
  
-
+  .card img{
+    border-radius: 10px 
+  }
 
 
 /* primero transformo el elemento y luego le aplico la transición */   
@@ -35,7 +42,7 @@
 @keyframes miel{
      
     25%{
-        transform: scale(1.5);
+        transform: scale(1.10);
         
     }
     
